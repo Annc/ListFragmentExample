@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/fragment_new_item"
+        android:name="com.example.dou.listfragmentexample.NewItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <fragment
+        android:id="@+id/fragment_list"
+        android:name="com.example.dou.listfragmentexample.MyListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
